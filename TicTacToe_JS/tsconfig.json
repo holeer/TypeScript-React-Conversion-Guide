@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",        // 指向输出目录的路径
+        "sourceMap": true,          // 启用资源图支持
+        "strictNullChecks": true,   // 启用严格 null 检查作为最佳实践
+        "module": "es6",            // 指定模块代码生成器
+        "jsx": "react",             // 使用 typescript 将 jsx 转译为 js
+        "target": "es5",            // 指定 ECMAScript 目标版本
+        "allowJs": true             // 允许代码库处于半 TypeScript 半 JavaScript 状态
+
+    },
+    "include": [
+        "./src/"
+    ]
+}
