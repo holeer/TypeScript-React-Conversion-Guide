@@ -18,8 +18,8 @@ module.exports = {
     ]
   },
   externals: {
-    "react": "React",
-    "react-dom": "ReactDOM",
+    // "react": "React",
+    // "react-dom": "ReactDOM",
   },
   // newline - add source-map support
   devtool: "source-map"

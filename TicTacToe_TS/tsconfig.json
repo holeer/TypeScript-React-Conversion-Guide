@@ -3,6 +3,7 @@
         "outDir": "./dist/",        // path to output directory
         "sourceMap": true,          // allow sourcemap support
         "strictNullChecks": true,   // enable strict null checks as a best practice
+        "esModuleInterop": true,    // 自动启用 allowSyntheticDefaultImports，同时处理其他互操作问题
         "module": "es6",            // specifiy module code generation
         "jsx": "react",             // use typescript to transpile jsx to js
         "target": "es5",            // specify ECMAScript target version
